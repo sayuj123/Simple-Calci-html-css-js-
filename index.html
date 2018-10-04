@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css" type="text/css">
+    <script src="calci.js">
+       
+        
+    </script>
+</head>
+<body onload="setzero()">
+  <div class="head1">
+      <h1> A Simple Calculator </h1>
+  </div>
+   <div class="calci_body">
+    <form name="calci">
+        <input type="text" name="input_num" class="input1_num"><br>
+        <input type="button" name="btn1" class="btns" value="9" onclick="displynum(btn1.value)">
+        <input type="button" name="btn2" class="btns" value="8" onclick="displynum(btn2.value)">
+        <input type="button" name="btn3" class="btns" value="7" onclick="displynum(btn3.value)">
+        <input type="button" name="add_btn" class="btns" value="+" onclick="displynum(add_btn.value)"><br>
+        <input type="button" name="btn4" class="btns" value="6" onclick="displynum(btn4.value)">
+        <input type="button" name="btn5" class="btns" value="5" onclick="displynum(btn5.value)">
+        <input type="button" name="btn6" class="btns" value="4" onclick="displynum(btn6.value)">
+        <input type="button" name="sub_btn" class="btns" value="-" onclick="displynum(sub_btn.value)"><br>
+        <input type="button" name="btn7" class="btns" value="3" onclick="displynum(btn7.value)">
+        <input type="button" name="btn8" class="btns" value="2" onclick="displynum(btn8.value)">
+        <input type="button" name="btn9" class="btns" value="1" onclick="displynum(btn9.value)">
+        <input type="button" name="mul_btn" class="btns" value="*" onclick="displynum(mul_btn.value)"><br>
+        <input type="button" name="btn0" class="btns" value="0" onclick="displynum(btn0.value)">
+        <input type="button" name="dot_btn" class="btns" value="." onclick="displynum(dot_btn.value)">
+        <input type="button" name="eql_btn" class="btns" value="=" onclick="input_num.value=eval(input_num.value)">
+        <input type="button" name="div_btn" class="btns" value="/" onclick="displynum(div_btn.value)"><br>
+        <input type="button" name="clear_btn" class="btns" value="CE" onclick="clear_all()">
+        <input type="button" name="back_btn" class="btn_back" value="Backspace" onclick="back()">
+     </form>
+     </div>
+</body>
+</html>

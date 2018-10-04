@@ -1,0 +1,177 @@
+body{
+    margin-top: 20px;
+    background: url('img8.jpg');
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+.head1{
+    text-align: center;
+    margin: 0px auto;
+    width: 750px;
+    height: 100px;
+    font-size: 32px;
+    
+}
+.input1_num{
+    text-align: right;
+    border: 5px inset #FF5733;
+    font-family: cursive;
+    font-size: 32px;
+    width: 440px;
+    margin-left: -12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: azure;
+    transition: 0.7s;
+}
+
+
+.calci_body{
+    margin: 0px auto;
+    border: 5px double #FF5733;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+    opacity: .75;
+    background-color: azure;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btns{
+    font-size: 42px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 12px;
+    transition: 0.7s;
+    color: white;
+    border: 5px ridge #FF5733;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.btns:hover{
+    background-color: orangered;
+}
+
+.btn_back{
+     font-size: 42px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 2px;
+    margin-left: 25px;
+    transition: 0.7s;
+    color: white;
+    border: 5px ridge #FF5733;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.btn_back:hover{
+    background-color: orangered;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+margin-top:0px;
+        background: url('img8.jpg');
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+    .head1{
+        margin-top: 0px;
+        font-size: 19px;
+        text-align: left;
+    }
+    .calci_body{
+    margin-left: 10px;
+    margin-top:-30px;
+    border: 5px double #FF5733;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    opacity: .75;
+    background-color: azure;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+        
+}
+    .btns{
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 12px;
+    transition: 0.7s;
+    color: white;
+    border: 5px ridge #FF5733;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+    .btn_back{
+     font-size: 20px;
+    width: 190px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.7s;
+    color: white;
+    border: 5px ridge #FF5733;
+    background-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 0px;
+}
+    .input1_num{
+    text-align: right;
+    border: 5px inset #FF5733;
+    font-family: cursive;
+    font-size: 19px;
+    width: 250px;
+    margin-left: -12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: azure;
+    transition: 0.7s;
+}
+    
+}
